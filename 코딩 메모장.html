@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+  <title>코딩 메모장</title>
+  <meta charset="utf-8">
+  <style>
+    @media(max-width:905px) {
+      #sub{
+        display:block;
+      }
+    }
+    #gird{
+      display:grid;
+      grid-template-columns: 300px 1fr;
+      text-align:left;
+      padding:20px;
+    }
+    #sub{
+      display:grid;
+    }
+    #grid{
+      display:grid;
+      grid-template-columns: 300px 1fr;
+      text-align:left;
+      padding:20px;
+    }
+    .link{
+      border-right:1px solid gray;
+      margin-right:20px;
+      padding-right:10px;
+    }
+    .cropping{
+      max-height:100px;
+    }
+    .cropping img{
+      max-height:initial;
+      margin-top:-15%;
+      margin-bottom:-15%;
+    }
+    body{
+      text-align:center;
+    }
+    h1{
+      border-bottom:10px solid black;
+      padding:30px;
+      margin-bottom:30px;
+    }
+    h2{
+      text-align:center;
+      border:2px solid gray;
+      padding:30px;
+    }
+  </style>
+</head>
+  <body>
+    <h1>코딩 메모장</h1>
+    <div id="grid">
+      <div class="link">
+        <p style="font-size:11pt">1학년 겨울방학부터 시작한 코딩 수업.<br>생활코딩을 통해 학습했다.</p>
+        <div class="cropping">
+          <a href="WEB.html"><img src="https://cdn-icons-png.flaticon.com/512/41/41904.png" width="230"></a>
+        </div><br>
+        <a href="html.html"><img src="https://cdn-icons-png.flaticon.com/512/136/136446.png" width="75"></a>
+        <a href="css.html"><img src="https://cdn-icons-png.flaticon.com/512/136/136445.png" width="75"></a>
+        <a href="java script.html"><img src="https://cdn-icons-png.flaticon.com/128/136/136448.png" width="75"></a>
+      </div>
+      <div id="sub">
+        <h2>최종 목표는 그럴싸한 웹 페이지 만들기!</h2>
+        <h4 style="margin-top:50px">html과 Internet(web1)이 끝났을 때</h4>
+        <div id="gird">
+          <div><u>웹을 아름답게</u> 만들고 싶다</div>
+          <div>Web to <strong>CSS</strong></div>
+          <div>사용자와 <u>상호작용하는</u> 웹을 만들고 싶다</div>
+          <div>Web to <strong>JavaScript</strong></div>
+          <div>하나의 <u>변경을 수억개의 웹</u>에 적용하고 싶다</div>
+          <div><strong>back end</strong> - 파이썬 JSP,PHP,Node.js 중 하나 택 1.</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
